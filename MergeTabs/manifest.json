@@ -1,0 +1,14 @@
+{
+  "name": "Merge Tabs - By Ritwick Chaudhry",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["combineTabs.js"],
+    "persistent": false
+  },
+  "description": "Puts All Your Open Tabs into One Window",
+  "browser_action": {
+    "default_icon": "Merge.png",
+    "default_title": "Merge Tabs In One Window"
+  }
+}
